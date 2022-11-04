@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>QR-CODE GENERATOR</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>QR-CODE GENERATOR</h1>
+        <p>Введите текст для создания QR-кода</p>
+      </header>
+      <div class="form">
+        <input type="text" spellcheck="false" placeholder="Введите текст или ссылку">
+        <button>Создать QR-код</button>
+      </div>
+      <div class="qr-code">
+        <a class='gradient' href='#'><img src="" alt="qr-code"></a>
+      </div>
+      <!--<div>
+        Выберите цвет для тела документа:<br/>
+        Тип: градиент
+           <div class="colorPicker">
+             <input type="color" id="bgcolor"/><br/>
+             <input type="hidden" id="colorContainer" value=""/>
+           </div>
+             <button class="colors">Цвет 1</button>
+             <button class="colors">Цвет 2</button>
+             <button class="colors">Цвет 3</button>
+             <button class="colors">Цвет 4</button>
+             <button id="doIt">Применить</button>
+        </div>-->
+      <!--  <h2> Выбирите цвет для вашего QR-кода </h2>
+      <p2> Второй цвет нужен для градиента</p2>
+      <div class="form2">
+        <input type="color" id="color1" name="color1" value="#CC0000">
+        <label for="head">1</label>
+        <input type="color" id="color2" name="color2" value="#0095EE">
+        <label for="body">2</label>
+      </div>-->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
